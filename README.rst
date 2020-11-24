@@ -101,6 +101,11 @@ Example: ::
 Changelog
 =========
 
+0.8.2
+-----
+
+- Compatibility with Django-CMS 3.4
+
 0.8.1
 -----
 

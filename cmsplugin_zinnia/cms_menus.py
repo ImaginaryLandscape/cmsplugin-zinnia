@@ -1,6 +1,9 @@
 """Menus for cmsplugin_zinnia"""
 from django.utils.dateformat import format
-from django.core.urlresolvers import reverse
+try:
+    from django.urls import reverse
+except:
+    from django.core.urlresolvers import reverse
 from django.db.models.signals import post_save
 from django.db.models.signals import post_delete
 from django.utils.translation import ugettext_lazy as _
